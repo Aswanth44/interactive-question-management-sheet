@@ -1,6 +1,6 @@
-📘 Interactive Question Management Sheet
+ Interactive Question Management Sheet
 
-📌 Project Overview
+ Project Overview
 
 The Interactive Question Management Sheet is a web-based application designed to organize questions in a structured and user-friendly way.
 It allows users to manage Topics, Sub-topics, and Questions using a clean UI with modern interactions.
@@ -8,7 +8,7 @@ It allows users to manage Topics, Sub-topics, and Questions using a clean UI wit
 The application uses a given dataset and displays it hierarchically, while also allowing users to modify, reorder, and manage content interactively.
 
 
-🎯 Objectives
+ Objectives
 
 Organize questions under topics and sub-topics
 
@@ -19,23 +19,23 @@ Allow dynamic reordering using drag-and-drop
 Ensure the dataset is displayed correctly on every reload
 
 
-🚀 Features
+ Features
 
-✅ Core Features
+ Core Features
 
-📂 Topic Management
+ Topic Management
 
 Add and delete topics
 
-📁 Sub-topic Management
+Sub-topic Management
 
 Add and delete sub-topics under topics
 
-❓ Question Management
+Question Management
 
 Add and delete questions under sub-topics
 
-🔃 Drag and Drop Reordering
+Drag and Drop Reordering
 
 Reorder topics
 
@@ -43,13 +43,13 @@ Reorder sub-topics within a topic
 
 Reorder questions within a sub-topic
 
-📊 Dataset Integration
+Dataset Integration
 
 Loads and displays the given dataset correctly
 
 Dataset is normalized into a hierarchical structure
 
-🎨 UI & UX
+UI & UX
 
 Clean, modern card-based layout
 
@@ -57,7 +57,7 @@ Responsive design (works on laptop and large screens)
 
 Clear visual hierarchy for better readability
 
-🧠 Dataset Handling
+Dataset Handling
 
 The provided dataset is nested and non-hierarchical.
 To handle this, the dataset is:
@@ -75,7 +75,7 @@ This logic is implemented in:
 
 src/utils/parseSheetData.js
 
-🛠️ Tech Stack
+Tech Stack
 
 Frontend: React (Vite)
 
@@ -87,7 +87,7 @@ Language: JavaScript (ES6+)
 
 Build Tool: Vite
 
-📂 Project Structure
+Project Structure
 project-root/
 │
 ├── src/
@@ -103,33 +103,7 @@ project-root/
 ├── vite.config.js
 └── README.md
 
-⚙️ How to Run the Project
-1️⃣ Install Dependencies
-npm install
-
-2️⃣ Start Development Server
-npm run dev
-
-3️⃣ Open in Browser
-http://localhost:5173
-
-🧪 Example Use Case
-
-View questions grouped by topic and difficulty
-
-Reorder questions based on priority
-
-Add new practice questions
-
-Remove completed or irrelevant questions
-
-🧠 Viva / Evaluation Explanation (Important)
-
-You can confidently explain the project as:
-
-“The application takes a real-world dataset, normalizes it into a hierarchical topic–subtopic–question structure, and provides full CRUD operations with drag-and-drop reordering for better usability.”
-
-✅ Submission Notes
+Submission Notes
 
 node_modules is excluded using .gitignore
 
